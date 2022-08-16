@@ -1,6 +1,7 @@
+#[allow(unused_imports)]
 use serde_json::json;
 
-pub fn json_api() -> serde_json::Value {
+pub fn _json_api() -> serde_json::Value {
     let api = json! ([
 
         {
@@ -115,9 +116,6 @@ pub fn json_api() -> serde_json::Value {
             https://darkmatter-por-samsungbrazil.amagi.tv/playlist.m3u8
             https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8
             https://euronews.alteox.app/hls/de_stream.m3u8
-            https://euronews.alteox.app/hls/it_stream.m3u8
-            https://euronews.alteox.app/hls/pt_stream.m3u8
-            https://euronews.alteox.app/hls/ru_stream.m3u8
             https://euronews.alteox.app/hls/es_stream.m3u8
             http://flash.softhost.com.br:1935/fonte/fontetv/live.m3u8
             http://free.fullspeed.tv/iptv-query?streaming-ip=https://www.youtube.com/c/FRANCE24English/live
@@ -139,10 +137,6 @@ pub fn json_api() -> serde_json::Value {
             http://wz3.dnip.com.br:1935/novaeratv/novaeratv.sdp/live.m3u8
             https://stream.live.novotempo.com/tv/smil:tvnovotempo.smil/playlist.m3u8
             https://stmv1.duvoxtv.com.br/novelaplz/novelaplz/playlist.m3u8
-            https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f12151794c1800007a8ae63/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5f12151794c1800007a8ae63&deviceLat=-23.5475&deviceLon=-46.6361&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=BR&serverSideAds=false&sid=730&terminate=false&userId=
-            https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/60d3583ef310610007fb02b1/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&serverSideAds=false&studio_id=viacom&tags=ROKU_CONTENT_TAGS
-            https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f171d3442a0500007362f22/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
-            https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f121460b73ac6000719fbaf/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
             https://rede-muhler-recordnews-1-br.samsung.wurl.com/manifest/playlist.m3u8
             https://playpluspa-lh.akamaihd.net/i/pp_pa@377468/index_720_av-p.m3u8"
         },
