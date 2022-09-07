@@ -5,8 +5,6 @@ use near_sdk::serde::{Serialize, Deserialize};
 use std::collections::HashMap;
 pub type AccountId = String;
 
-mod data;
-
 #[derive(BorshDeserialize,BorshSerialize,Serialize,Deserialize,Debug)]
 #[serde(crate = "near_sdk::serde")]
 pub struct Msg {
