@@ -1,8 +1,8 @@
 use serde_json::json;
 
 pub fn json_config() -> serde_json::Value {
-    let data = json!(
-        [
+    let data =
+        json!({ 
             "packages": [
                 {
                     "name" : "package1",
@@ -326,7 +326,7 @@ pub fn json_config() -> serde_json::Value {
                     ]
                 }
             ]
-        ]
-    );
+        
+});
     data
 }
